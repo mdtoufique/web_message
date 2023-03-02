@@ -1,0 +1,250 @@
+html {
+    width: 100%;
+    max-width: 100vw;
+    min-height: 100vh;
+    color: white;
+}
+body {
+    background-color: rgb(70, 65, 65);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+p.p {
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+p.in {
+    font-size: 25px;
+}
+p.ini {
+    text-align: right;
+    font-size: 25px;
+}
+div.hea {
+    float: left;
+    width: 105px;
+}
+
+div.lol {
+    overflow: hidden;
+}
+.as:hover{
+    background-color:black;
+    color: white;
+    width:100px;
+    display:block;
+    margin:0 auto;
+    border-radius:5px;
+  }
+.dc {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+
+    background-color: rgb(34, 32, 63);
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 50px 0 rgba(70, 20, 80, 0.8),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ps {
+    padding:0 2% 20px 2%;
+    color: black;
+    margin: 0 auto;
+    width: 56%;
+    height: 520px;
+    background-color: rgb(155, 151, 148);
+    border-radius: 5px;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 50px 0 rgba(70, 20, 80, 0.8),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    overflow: hidden;
+}
+#gg{
+    text-align: center;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    border:none;
+}
+h3 {
+    color: darkblue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+.l {
+    padding-left: 15px;
+    width: 47%;
+
+    height: 80px;
+    font-size: 25px;
+    line-height: 80px;
+}
+.lg {
+    display: inline-block;
+    width: 47%;
+    text-align: center;
+    height: 80px;
+    font-size: 25px;
+    line-height: 80px;
+}
+input {
+    margin-left: 10px;
+    width: 95%;
+    height: 150px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+textarea {
+    resize: none;
+    width: 90%;
+    margin-left: 15px;
+    height: 100px;
+}
+.i {
+    width: auto;
+}
+.ig {
+    width: auto;
+}
+.k {
+    display: block;
+    width: 40%;
+    margin-bottom: 5%;
+    margin: 0 auto;
+    font-size: 15px;
+    height: 40px;
+    text-align: center;
+}
+
+.k:hover {
+    background-color: rgb(41, 35, 35);
+    color: white;
+}
+table {
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    width: 50vw;
+}
+th {
+    padding: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(151, 151, 151);
+}
+
+li {
+    display: block;
+    margin-top: 50px;
+    background-color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+
+    width: 70%;
+    margin: 0 auto;
+}
+.cen {
+    width: 280px;
+
+    margin: 0 auto;
+}
+@media only screen and (max-width: 700px) {
+    .dc {
+        width: 90%;
+        min-height: auto;
+    }
+    .ps {
+        padding:0 10px 50px 10px;
+        margin: 0 auto;
+        width: 80%;
+        height: 550px;
+        overflow: hidden;
+        background-color: rgb(155, 151, 148);
+        border-radius: 5px;
+        margin-bottom: 100px;
+        box-shadow: 0 4px 50px 0 rgba(70, 20, 80, 0.8),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-wrap: break-word;
+        border:none;
+    }
+    table {
+        background-color: blueviolet;
+    }
+    input {
+        width: 70%;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+    p {
+        display: block;
+    }
+    .l {
+        width: auto;
+        padding-left: 15px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    textarea {
+        width: 90%;
+        margin-left: 15px;
+        height: 80px;
+    }
+    .ig {
+        display: inline-block;
+    }
+    .lg {
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .k {
+        width: 40%;
+        margin-bottom: 5%;
+    }
+    .k:hover {
+        background-color: rgb(41, 35, 35);
+        color: white;
+    }
+}

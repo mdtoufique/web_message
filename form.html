@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+  </head>
+
+  <body>
+    
+   
+    <h1>Toufique's webpage</h1>
+    <div class="dc">
+      <h1>Signup form</h1>
+      <form action="form.php" method="POST">
+        <div>
+          <label class="l" for="fname">Enter full name: </label>
+          <input type="text" id="fname" name="fname" required><br>
+        </div>
+        <div>
+          <label class="l" for="uname">Enter username: </label>
+          <input type="text" id="uname" name="uname" required><br>
+        </div>
+        <div>
+          <label class="l" for="mobile">Enter mobile no.: </label>
+          <input type="text" id="mobile" name="mobile" required><br>
+        </div>
+        <div>
+          <label class="lg" for="gender">Gender:</label>
+          <input class="ig" type="radio" id="male" name="gender" value="Male" checked="checked">
+          <label for="male">Male</label>
+          <input class="ig" type="radio" id="female" name="gender" value="Female">
+          <label for="female ">Female </label><br>
+        </div>
+        <div>
+          <label class="l" for="mail">Enter your email: </label>
+          <input type="text" id="mail" name="mail" required><br>
+        </div>
+        
+        <div>
+          <label class="l" for="pass ">Enter password: </label>
+          <input type="password" id="pass" name="pass" required><br>
+        </div>
+        <div><input class="k" type="submit"  value="SUBMIT"></div>
+      </form>
+      <div class="cen"><p>Already have an account? <a href="login.html">Log in</a> here.</p></div><br>
+    </div>
+    <script src="fir.js"></script>
+  </body>
+</html>
